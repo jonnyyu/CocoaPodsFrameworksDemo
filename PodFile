@@ -1,0 +1,8 @@
+platform :osx, '10.8'
+
+workspace 'UseStaticLibInMultipleModules'
+
+pod 'Objection', '0.16.0'
+
+#xcodeproj 'GreatLibrary/GreatLibrary.xcodeproj'
+xcodeproj 'Master/Master.xcodeproj'

@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112D503F58AA4F0E9C1B8C50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B41EA528347460D93CFFB4A /* Cocoa.framework */; };
+		15B0306264B443D1B0B123D8 /* JSObjectionInjectorEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14ECEAC1364687ACB17194 /* JSObjectionInjectorEntry.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		164331F0C4674740AA05D92B /* JSObjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5470AB980E0C4FCCB7B4267A /* JSObjection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		19FE34A91EF0456E8D25C934 /* JSObjectionProviderEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 352284320D5541A79603056B /* JSObjectionProviderEntry.h */; };
+		1F74934D0E674950BB159128 /* JSObjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E70EE8ABC7D408E80B0165B /* JSObjection.h */; };
+		2B78DC3E82594057A33D5EA1 /* Pods-Objection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489469AF3F1D4D0FBC79E731 /* Pods-Objection.framework */; };
+		5EC07DD53AAE455796283DE7 /* JSObjectFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 184F157296BC4238A5C81068 /* JSObjectFactory.h */; };
+		63A88A8D49C646789AA90AD1 /* Pods-Objection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27756A1204B642EAB97C8CF2 /* Pods-Objection-dummy.m */; };
+		69ABB7BDFE0B4E6A909EAE64 /* JSObjectionBindingEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 266ECE1C77944569BC834324 /* JSObjectionBindingEntry.h */; };
+		716E8DA281784F18A5A365AF /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7919F4433A04E03BD8A075F /* Pods-dummy.m */; };
+		7872F00D800A4B43B41D8BBE /* JSObjectionEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 94779CBA0CAC4DAF9E0F461B /* JSObjectionEntry.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		851B5C4BC77149EB98A3C6A2 /* JSObjectionBindingEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F7AF57CC374CCB94FF3D62 /* JSObjectionBindingEntry.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8576E4F002AD4DB9B0B77C41 /* NSObject+Objection.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6E4F509F54719AD9CE60A /* NSObject+Objection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		88383C38AD8D4EBF8EBCE649 /* JSObjectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7495A6F4143C8B4F339D6 /* JSObjectionUtils.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		938205B31089444F9FBD4DD5 /* JSObjectFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 236DDB1884C940DF99EDF27D /* JSObjectFactory.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AFFDF6C163904C42ABD0E62B /* JSObjectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = ED36C0B6261644F6AE08A64E /* JSObjectionUtils.h */; };
+		B2E007FD8009494495D449E9 /* Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = 513941A54FF9486CB757909C /* Objection.h */; };
+		BD8F0025D1014A8EAD76DC08 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B41EA528347460D93CFFB4A /* Cocoa.framework */; };
+		C02B7BCA005E494BB51BDC76 /* JSObjectionModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C089367B074880A45668FF /* JSObjectionModule.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CC127BC6D6C84CB28E05C5CF /* JSObjectionProviderEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE9D66289446D89DA0839A /* JSObjectionProviderEntry.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CE772545177352B9001FCFD2 /* Pods-Objection.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 489469AF3F1D4D0FBC79E731 /* Pods-Objection.framework */; };
+		CFC48160B3164BD3A64B483B /* JSObjectionEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B740BC73E4D4BC989067BD9 /* JSObjectionEntry.h */; };
+		D66824C947BB485280D7C8D9 /* JSObjectionModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B84EA352C5D645E9B41527A8 /* JSObjectionModule.h */; };
+		D97D34A302B64C73914EDFAE /* JSObjectionInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ABE3826E514D3C96E4FEC9 /* JSObjectionInjector.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EF6C739C92EF43668849463B /* JSObjectionInjector.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D2359BC05648D990769A85 /* JSObjectionInjector.h */; };
+		F001F67F9D1243EA90CC71DF /* JSObjectionInjectorEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 90107B764BB14CEBA648CD8F /* JSObjectionInjectorEntry.h */; };
+		F18BAEDF66EF4DDAB56FA955 /* NSObject+Objection.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9E3B0B309542A0ADB1B344 /* NSObject+Objection.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE772544177352A7001FCFD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE772545177352B9001FCFD2 /* Pods-Objection.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D008FF977354D5BA0484C64 /* Pods-Objection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Objection.xcconfig"; sourceTree = SOURCE_ROOT; };
+		15C089367B074880A45668FF /* JSObjectionModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionModule.m; path = Objection/Source/JSObjectionModule.m; sourceTree = SOURCE_ROOT; };
+		184F157296BC4238A5C81068 /* JSObjectFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectFactory.h; path = Objection/Source/JSObjectFactory.h; sourceTree = SOURCE_ROOT; };
+		20D2359BC05648D990769A85 /* JSObjectionInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionInjector.h; path = Objection/Source/JSObjectionInjector.h; sourceTree = SOURCE_ROOT; };
+		21ABE3826E514D3C96E4FEC9 /* JSObjectionInjector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionInjector.m; path = Objection/Source/JSObjectionInjector.m; sourceTree = SOURCE_ROOT; };
+		236DDB1884C940DF99EDF27D /* JSObjectFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectFactory.m; path = Objection/Source/JSObjectFactory.m; sourceTree = SOURCE_ROOT; };
+		266ECE1C77944569BC834324 /* JSObjectionBindingEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionBindingEntry.h; path = Objection/Source/JSObjectionBindingEntry.h; sourceTree = SOURCE_ROOT; };
+		27756A1204B642EAB97C8CF2 /* Pods-Objection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Objection-dummy.m"; sourceTree = SOURCE_ROOT; };
+		2ED1E96CCAA7487DA7211F60 /* Pods-Objection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Objection-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		352284320D5541A79603056B /* JSObjectionProviderEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionProviderEntry.h; path = Objection/Source/JSObjectionProviderEntry.h; sourceTree = SOURCE_ROOT; };
+		3B41EA528347460D93CFFB4A /* Cocoa.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		3B740BC73E4D4BC989067BD9 /* JSObjectionEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionEntry.h; path = Objection/Source/JSObjectionEntry.h; sourceTree = SOURCE_ROOT; };
+		489469AF3F1D4D0FBC79E731 /* Pods-Objection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods-Objection.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		513941A54FF9486CB757909C /* Objection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Objection.h; path = Objection/Source/Objection.h; sourceTree = SOURCE_ROOT; };
+		5470AB980E0C4FCCB7B4267A /* JSObjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjection.m; path = Objection/Source/JSObjection.m; sourceTree = SOURCE_ROOT; };
+		5DEE9D66289446D89DA0839A /* JSObjectionProviderEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionProviderEntry.m; path = Objection/Source/JSObjectionProviderEntry.m; sourceTree = SOURCE_ROOT; };
+		5E397911C2034B29B2850E1D /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		5E70EE8ABC7D408E80B0165B /* JSObjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjection.h; path = Objection/Source/JSObjection.h; sourceTree = SOURCE_ROOT; };
+		7ABE9EE11896495BAFA8EC3C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		7F14ECEAC1364687ACB17194 /* JSObjectionInjectorEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionInjectorEntry.m; path = Objection/Source/JSObjectionInjectorEntry.m; sourceTree = SOURCE_ROOT; };
+		90107B764BB14CEBA648CD8F /* JSObjectionInjectorEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionInjectorEntry.h; path = Objection/Source/JSObjectionInjectorEntry.h; sourceTree = SOURCE_ROOT; };
+		90F7AF57CC374CCB94FF3D62 /* JSObjectionBindingEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionBindingEntry.m; path = Objection/Source/JSObjectionBindingEntry.m; sourceTree = SOURCE_ROOT; };
+		94779CBA0CAC4DAF9E0F461B /* JSObjectionEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionEntry.m; path = Objection/Source/JSObjectionEntry.m; sourceTree = SOURCE_ROOT; };
+		AA2F5FB91B3744A299B48CC3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7919F4433A04E03BD8A075F /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		B84EA352C5D645E9B41527A8 /* JSObjectionModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionModule.h; path = Objection/Source/JSObjectionModule.h; sourceTree = SOURCE_ROOT; };
+		BBBDF803981B43CABACF6AB7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD73E9C18AF14DF190AEC624 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		CCB6E4F509F54719AD9CE60A /* NSObject+Objection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Objection.m"; path = "Objection/Source/NSObject+Objection.m"; sourceTree = SOURCE_ROOT; };
+		CCB7495A6F4143C8B4F339D6 /* JSObjectionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSObjectionUtils.m; path = Objection/Source/JSObjectionUtils.m; sourceTree = SOURCE_ROOT; };
+		CF9E3B0B309542A0ADB1B344 /* NSObject+Objection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Objection.h"; path = "Objection/Source/NSObject+Objection.h"; sourceTree = SOURCE_ROOT; };
+		D6D9F9216D7649B1B8C6419A /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		E821FDCD870F4ED2B7F215CC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		ED36C0B6261644F6AE08A64E /* JSObjectionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSObjectionUtils.h; path = Objection/Source/JSObjectionUtils.h; sourceTree = SOURCE_ROOT; };
+		F3DC1FF4A69E49358A6BDC40 /* Pods-Objection-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Objection-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0453080CBC6842AA9E9C9850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8F0025D1014A8EAD76DC08 /* Cocoa.framework in Frameworks */,
+				2B78DC3E82594057A33D5EA1 /* Pods-Objection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3A00BEF1724325AEBAB3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112D503F58AA4F0E9C1B8C50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C7847922044AA693D8AF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CA097CDECE44C47AB2DFC52 /* Objection */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28A6128C658F432E8054E133 /* Pods-Objection */ = {
+			isa = PBXGroup;
+			children = (
+				0D008FF977354D5BA0484C64 /* Pods-Objection.xcconfig */,
+				F3DC1FF4A69E49358A6BDC40 /* Pods-Objection-Private.xcconfig */,
+				2ED1E96CCAA7487DA7211F60 /* Pods-Objection-prefix.pch */,
+				27756A1204B642EAB97C8CF2 /* Pods-Objection-dummy.m */,
+			);
+			name = "Pods-Objection";
+			sourceTree = "<group>";
+		};
+		29A55B57109F4CF2A9D9DB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489469AF3F1D4D0FBC79E731 /* Pods-Objection.framework */,
+				AA2F5FB91B3744A299B48CC3 /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA097CDECE44C47AB2DFC52 /* Objection */ = {
+			isa = PBXGroup;
+			children = (
+				184F157296BC4238A5C81068 /* JSObjectFactory.h */,
+				236DDB1884C940DF99EDF27D /* JSObjectFactory.m */,
+				5E70EE8ABC7D408E80B0165B /* JSObjection.h */,
+				5470AB980E0C4FCCB7B4267A /* JSObjection.m */,
+				266ECE1C77944569BC834324 /* JSObjectionBindingEntry.h */,
+				90F7AF57CC374CCB94FF3D62 /* JSObjectionBindingEntry.m */,
+				3B740BC73E4D4BC989067BD9 /* JSObjectionEntry.h */,
+				94779CBA0CAC4DAF9E0F461B /* JSObjectionEntry.m */,
+				20D2359BC05648D990769A85 /* JSObjectionInjector.h */,
+				21ABE3826E514D3C96E4FEC9 /* JSObjectionInjector.m */,
+				90107B764BB14CEBA648CD8F /* JSObjectionInjectorEntry.h */,
+				7F14ECEAC1364687ACB17194 /* JSObjectionInjectorEntry.m */,
+				B84EA352C5D645E9B41527A8 /* JSObjectionModule.h */,
+				15C089367B074880A45668FF /* JSObjectionModule.m */,
+				352284320D5541A79603056B /* JSObjectionProviderEntry.h */,
+				5DEE9D66289446D89DA0839A /* JSObjectionProviderEntry.m */,
+				ED36C0B6261644F6AE08A64E /* JSObjectionUtils.h */,
+				CCB7495A6F4143C8B4F339D6 /* JSObjectionUtils.m */,
+				CF9E3B0B309542A0ADB1B344 /* NSObject+Objection.h */,
+				CCB6E4F509F54719AD9CE60A /* NSObject+Objection.m */,
+				513941A54FF9486CB757909C /* Objection.h */,
+			);
+			name = Objection;
+			sourceTree = "<group>";
+		};
+		63EE57060AD6465981AC320F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B41EA528347460D93CFFB4A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7A2A86E1D64442B0E79267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E821FDCD870F4ED2B7F215CC /* Pods.xcconfig */,
+				BD73E9C18AF14DF190AEC624 /* Pods-environment.h */,
+				5E397911C2034B29B2850E1D /* Pods-resources.sh */,
+				D6D9F9216D7649B1B8C6419A /* Pods-acknowledgements.plist */,
+				7ABE9EE11896495BAFA8EC3C /* Pods-acknowledgements.markdown */,
+				B7919F4433A04E03BD8A075F /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEFDA3A5E80347069D865652 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A6128C658F432E8054E133 /* Pods-Objection */,
+				8D7A2A86E1D64442B0E79267 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8EA374D1C8D440383F98A87 = {
+			isa = PBXGroup;
+			children = (
+				63EE57060AD6465981AC320F /* Frameworks */,
+				07C7847922044AA693D8AF51 /* Pods */,
+				29A55B57109F4CF2A9D9DB69 /* Products */,
+				BEFDA3A5E80347069D865652 /* Targets Support Files */,
+				BBBDF803981B43CABACF6AB7 /* Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA57FC818F084B91A941BFDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC07DD53AAE455796283DE7 /* JSObjectFactory.h in Headers */,
+				1F74934D0E674950BB159128 /* JSObjection.h in Headers */,
+				69ABB7BDFE0B4E6A909EAE64 /* JSObjectionBindingEntry.h in Headers */,
+				CFC48160B3164BD3A64B483B /* JSObjectionEntry.h in Headers */,
+				EF6C739C92EF43668849463B /* JSObjectionInjector.h in Headers */,
+				F001F67F9D1243EA90CC71DF /* JSObjectionInjectorEntry.h in Headers */,
+				D66824C947BB485280D7C8D9 /* JSObjectionModule.h in Headers */,
+				19FE34A91EF0456E8D25C934 /* JSObjectionProviderEntry.h in Headers */,
+				AFFDF6C163904C42ABD0E62B /* JSObjectionUtils.h in Headers */,
+				F18BAEDF66EF4DDAB56FA955 /* NSObject+Objection.h in Headers */,
+				B2E007FD8009494495D449E9 /* Objection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ADFA9B1B7414357A2870FA0 /* Pods-Objection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20164CC83DB49F2B53238BB /* Build configuration list for PBXNativeTarget "Pods-Objection" */;
+			buildPhases = (
+				149B3533B9E24BB4BC81E8BF /* Sources */,
+				1C3A00BEF1724325AEBAB3EE /* Frameworks */,
+				AA57FC818F084B91A941BFDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Objection";
+			productName = "Pods-Objection";
+			productReference = 489469AF3F1D4D0FBC79E731 /* Pods-Objection.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A655EC19458C4FFC92AF4E94 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0517DBFD05A64502BBA54A34 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				CC397E1845B74636BCD8DD82 /* Sources */,
+				0453080CBC6842AA9E9C9850 /* Frameworks */,
+				CE772544177352A7001FCFD2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AA2F5FB91B3744A299B48CC3 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B499FCA9D004D839D2DD37B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 8C24CF8817BB42DDB5B54D6F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8EA374D1C8D440383F98A87;
+			productRefGroup = 29A55B57109F4CF2A9D9DB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADFA9B1B7414357A2870FA0 /* Pods-Objection */,
+				A655EC19458C4FFC92AF4E94 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		149B3533B9E24BB4BC81E8BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938205B31089444F9FBD4DD5 /* JSObjectFactory.m in Sources */,
+				164331F0C4674740AA05D92B /* JSObjection.m in Sources */,
+				851B5C4BC77149EB98A3C6A2 /* JSObjectionBindingEntry.m in Sources */,
+				7872F00D800A4B43B41D8BBE /* JSObjectionEntry.m in Sources */,
+				D97D34A302B64C73914EDFAE /* JSObjectionInjector.m in Sources */,
+				15B0306264B443D1B0B123D8 /* JSObjectionInjectorEntry.m in Sources */,
+				C02B7BCA005E494BB51BDC76 /* JSObjectionModule.m in Sources */,
+				CC127BC6D6C84CB28E05C5CF /* JSObjectionProviderEntry.m in Sources */,
+				88383C38AD8D4EBF8EBCE649 /* JSObjectionUtils.m in Sources */,
+				8576E4F002AD4DB9B0B77C41 /* NSObject+Objection.m in Sources */,
+				63A88A8D49C646789AA90AD1 /* Pods-Objection-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC397E1845B74636BCD8DD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E8DA281784F18A5A365AF /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		839D4CEE6B3F437DAABF74B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+			};
+			name = Release;
+		};
+		909001C585704DC2B9832BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E821FDCD870F4ED2B7F215CC /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-sub_umbrella",
+					"Pods-Objection",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AE7664870D04DB9B114F9FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+			};
+			name = Debug;
+		};
+		A29A309712724B508C1B1FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DC1FF4A69E49358A6BDC40 /* Pods-Objection-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Objection-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-umbrella",
+					Pods,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B36B2BFCDFCE4CD8BACFF74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3DC1FF4A69E49358A6BDC40 /* Pods-Objection-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Objection-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-umbrella",
+					Pods,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C97B376532F54C4AA30EE25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E821FDCD870F4ED2B7F215CC /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-sub_umbrella",
+					"Pods-Objection",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0517DBFD05A64502BBA54A34 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97B376532F54C4AA30EE25E /* Release */,
+				909001C585704DC2B9832BAF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C24CF8817BB42DDB5B54D6F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839D4CEE6B3F437DAABF74B8 /* Release */,
+				9AE7664870D04DB9B114F9FB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20164CC83DB49F2B53238BB /* Build configuration list for PBXNativeTarget "Pods-Objection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29A309712724B508C1B1FAB /* Release */,
+				B36B2BFCDFCE4CD8BACFF74E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B499FCA9D004D839D2DD37B /* Project object */;
+}
